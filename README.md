@@ -1,31 +1,41 @@
-# Wasabi Storage Bot Premium
+# 🚀 Wasabi Storage Bot Premium
 
-A premium Telegram bot for managing cloud storage with Wasabi hot cloud storage integration.
+A **premium Telegram bot** for managing cloud storage with **Wasabi Hot Cloud Storage integration**.  
+Easily upload, download, and manage files with speed, security, and reliability.
 
-## Features
+---
 
-- 🔐 Secure cloud storage management
-- 📁 File upload/download operations
-- 🔍 File search and organization
-- 👥 Multi-user support with premium tiers
-- 💾 Wasabi cloud storage integration
-- 🔔 Real-time notifications
-- 📊 Storage analytics and usage tracking
-- 🔒 End-to-end encryption support
-- 🌐 Multi-language support
-- ⚡ High-performance file handling
+## 🌟 Features
 
-## Installation
+- 🔐 **Secure Cloud Storage Management**
+- 📁 **File Upload & Download Operations**
+- 🔍 **File Search and Organization**
+- 👥 **Multi-User Support with Premium Tiers**
+- 💾 **Wasabi Cloud Integration**
+- 🔔 **Real-Time Notifications**
+- 📊 **Storage Analytics and Usage Tracking**
+- 🔒 **End-to-End Encryption Support**
+- 🌐 **Multi-Language Support**
+- ⚡ **High-Performance File Handling**
+
+---
+
+## 🧩 Installation
 
 ### Prerequisites
-- Python 3.8 or higher
+
+- Python **3.8+**
 - Telegram Bot Token from [@BotFather](https://t.me/BotFather)
 - Wasabi Cloud Storage Account
-- PostgreSQL/MySQL database (optional)
+- PostgreSQL/MySQL database *(optional)*
 
- ### *Env*
- 
- '''bash
+---
+
+## ⚙️ Environment Variables
+
+Create a `.env` file in the root directory and add the following:
+
+```bash
 # Telegram Bot Configuration
 BOT_TOKEN=your_telegram_bot_token_here
 ADMIN_IDS=123456789,987654321
@@ -42,12 +52,13 @@ DATABASE_URL=sqlite:///bot_database.db
 
 # Security
 ENCRYPTION_KEY=your_encryption_key_here
-MAX_FILE_SIZE=5368709120  # 5GB in bytes
+MAX_FILE_SIZE=5368709120  # 5GB
 
 # Bot Settings
 MAX_CONCURRENT_UPLOADS=3
-DEFAULT_STORAGE_LIMIT=10737418240  # 10GB
+DEFAULT_STORAGE_LIMIT=10737418240   # 10GB
 PREMIUM_STORAGE_LIMIT=536870912000  # 500GB
+
 
 ### Quick Setup
 
